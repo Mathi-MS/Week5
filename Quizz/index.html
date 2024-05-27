@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizz</title>
+    <!-- CSS  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz">
+        <h2>Interactive Quiz</h2>
+        <label>1.Which HTML attribute is used to define inline styles?</label> <br>
+        <input type="radio" name="questionone" value="style">style
+        <input type="radio" name="questionone" value="class">class
+        <input type="radio" name="questionone" value="styles">styles <br>
+        <label>2.Which character is used to indicate an end tag?</label> <br>
+        <input type="radio" name="questiontwo" value="/">/
+        <input type="radio" name="questiontwo" value="-">-
+        <input type="radio" name="questiontwo" value="*">* <br>
+        <label>3.Which CSS property is used to change the text color of an element?</label> <br>
+        <input type="radio" name="questionthree" value="fgcolor">fgcolor
+        <input type="radio" name="questionthree" value="color">color
+        <input type="radio" name="questionthree" value="text-color">text-color<br>
+        <label>4.Inline elements are normally displayed without starting a new line.</label> <br>
+        <input type="radio" name="questionfour" value="False">False
+        <input type="radio" name="questionfour" value="True">True<br>
+        <label>5.How do you select an element with id 'demo'?</label> <br>
+        <input type="radio" name="questionfive" value=".demo">.demo
+        <input type="radio" name="questionfive" value="*demo">*demo
+        <input type="radio" name="questionfive" value="#demo">#demo<br>
+        <button type="submit">Submit</button>
+    </div>
+    <div class="popupresult">
+        <h3>Interactive Quiz</h3>
+        <h4>Your Quiz Result</h4>
+        <p class="userscore"></p>
+    </div>
+    <!-- JS -->
+    <script src="script.js"></script>
+</body>
+</html>
