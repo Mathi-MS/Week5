@@ -5,7 +5,7 @@ var verify = document.querySelector("a")
 
 
 //Random password Function
-var alpha = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
+var alpha = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890"
 var result =""
 
 for (let i = 0; i < 6; i++) {
